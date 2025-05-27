@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Programmation Scientifique avec Python"
+  author: "Gabriel Genest"
+  date: "2025-05-27"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
